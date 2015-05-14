@@ -31,6 +31,16 @@ $(document).ready(function() {
 });
 ```
 
+###Callback
+
+```javascript
+$(document).ready(function() {
+    $(".select").select(function(value) {
+        console.log(value);
+    });
+});
+```
+
 ###Version
 
-0.2
+0.3
