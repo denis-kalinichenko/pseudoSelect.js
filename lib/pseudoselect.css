@@ -1,12 +1,12 @@
 .select .option_selected {
   cursor: pointer; }
-.select .options.hidden {
-  display: none; }
-.select .options.showed {
-  display: block; }
 .select .options .option {
   cursor: pointer; }
   .select .options .option.selected {
     font-weight: bold; }
+.select.hidden .options {
+  display: none; }
+.select.showed .options {
+  display: block; }
 
 /*# sourceMappingURL=pseudoselect.css.map */

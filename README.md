@@ -33,4 +33,4 @@ $(document).ready(function() {
 
 ###Version
 
-0.1
+0.2

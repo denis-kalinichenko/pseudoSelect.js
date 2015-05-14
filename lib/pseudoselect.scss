@@ -3,19 +3,23 @@
     cursor: pointer;
   }
   .options {
-    &.hidden {
-      display: none;
-    }
-    &.showed {
-      display: block;
-    }
-
     .option {
       cursor: pointer;
 
       &.selected {
         font-weight: bold;
       }
+    }
+  }
+
+  &.hidden {
+    .options {
+      display: none;
+    }
+  }
+  &.showed {
+    .options {
+      display: block;
     }
   }
 }
