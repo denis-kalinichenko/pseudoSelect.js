@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>pseudoSelect demo page</title>
+
+    <!-- my pseudoSelect simple theme -->
+    <link rel="stylesheet" type="text/css" href="../lib/pseudoselect.css">
+
+    <!-- jQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+
+    <!-- pseudoSelect script -->
+    <script src="../lib/jquery.pseudoSelect.js"></script>
+
+    <script>
+        $(document).ready(function() {
+            $(".select").select();
+        });
+    </script>
+</head>
+<body>
+
+    <div class="select" data-name="lang">
+        <div class="option" data-value="en">en</div>
+        <div class="option selected" data-value="pl">pl</div>
+        <div class="option" data-value="ua">ua</div>
+    </div>
+
+</body>
+</html>

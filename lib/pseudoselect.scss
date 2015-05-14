@@ -1,0 +1,21 @@
+.select {
+  .option_selected {
+    cursor: pointer;
+  }
+  .options {
+    &.hidden {
+      display: none;
+    }
+    &.showed {
+      display: block;
+    }
+
+    .option {
+      cursor: pointer;
+
+      &.selected {
+        font-weight: bold;
+      }
+    }
+  }
+}
